@@ -10,8 +10,9 @@ Secondary Color (Orange): #e0b354;
    --primary-color: #357b70;
    --secondary-color: #e0b354;
    --dark-grey: #2b2b2b;
-   --visited-color: #05676e;
+   --visited-color: #05676e;
    --white: #ffffff;
+   --black: #000000;
    --active-color: #489c79;
    --lightgrey: #D3D3D3;
    --light-font: 400;
@@ -168,6 +169,7 @@ button:hover, button:focus, .button:hover, .button:focus {
  }
  .grid__item {
    background-color: var(--lightgrey);
+   color: var(--black);
    width: auto;
    min-height: auto;
    margin: 0;
