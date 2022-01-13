@@ -182,6 +182,17 @@ button:focus,
   width: 33%;
 }
 
+.grid__image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 96%;
+  /* object-fit: cover;
+  object-position: 50% 50%;
+  width: 96%;
+  max-height: 96%; */
+}
+
 @supports (display: grid) {
   .grid {
     display: -ms-grid;
