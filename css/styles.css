@@ -161,14 +161,10 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 
 .grid__image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 96%;
-  /* object-fit: cover;
+  object-fit: cover;
   object-position: 50% 50%;
   width: 96%;
-  max-height: 96%; */
+  max-height: 96%;
 }
 
 @supports (display: grid) {
