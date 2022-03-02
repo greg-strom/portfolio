@@ -8,7 +8,7 @@ HTML, CSS
 
 Key Features:
 
-The website contains of four pages:
+The website consists of four pages:
 
 1. The home page, which provides a brief introduction to my background and my goals as a developer.
 2. The about page, which provides a more detailed description of my background and my development sklils & experience.
