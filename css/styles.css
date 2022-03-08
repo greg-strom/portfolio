@@ -155,8 +155,19 @@ button:hover, button:focus, .button:hover, .button:focus {
   flex-direction: column;
 }
 
+.page-title {
+  text-align: center;
+}
+
+.grid {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
 .grid__item {
   display: inline-block;
+  border-radius: 10%;
+  padding: 5%;
   width: 33%;
 }
 
@@ -165,6 +176,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   object-position: 50% 50%;
   width: 96%;
   max-height: 96%;
+  min-width: 250px;
 }
 
 @supports (display: grid) {

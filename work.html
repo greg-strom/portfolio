@@ -4,10 +4,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Work by Greg Strom</title>
-	<link rel="shortcut icon" href="img/wikipedia.ico">
+	<link rel="shortcut icon" href="img/GSicon.ico">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/style.production.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
 	<header class="page-header">
@@ -30,42 +30,67 @@
 		</nav>
 	</header>
   <section>
-     <h1>Work</h1>
+     <h1 class="page-title">Portfolio:</h1>
      <div class="grid">
        <div class="grid__item">
-         <h1>Meet App</h1>
-         <p>This PWA hosted on Amazon Lambda fetches upcoming development-related events using the Google Calendar API. Login is handled by Google OAuth2. Once users login, they can filter the display of events by specifying their preferred city or how many events they want to see at once. I built this application using test-driven development (TDD) and Enzyme for code testing.</p>
-         <a href="https://gbstrom.github.io/meet/" target="_blank">
-		   <img src="img/Meet-screenshot.JPG" class="grid__image">
-		 </a>
-		 <a href="https://github.com/gbstrom/meet" target="_blank">Check it out on Github</a>
+         <h1>Back-End Movie API</h1>
+         <p>Back-end API hosted on Heroku built to serve movie info from a database hosted on MongoDB.</p>
+		 <p>(JS, MongoDB)</p>
+		 <a href="https://github.com/gbstrom/movie_api" target="_blank">
+			<img src="img/movie-API-preview.png" class="grid__image">
+		  </a>
+         <a href="https://github.com/gbstrom/movie_api" target="_blank">Check it out on Github</a>
+       </div>
+       <div class="grid__item">
+         <h1>React Movie Client</h1>
+         <p>React front-end client for the back-end movie API</p>
+		 <p>(HTML, CSS, JS, React, React Bootstrap)</p>
+		 <a href="https://github.com/gbstrom/myFlix-client/" target="_blank">
+			<img src="img/myFlix-React-screenshot.JPG" class="grid__image">
+		  </a>
+         <a href="https://github.com/gbstrom/myFlix-client/" target="_blank">Check it out on Github</a>
+       </div>
+       <div class="grid__item">
+         <h1>Angular Movie Client</h1>
+		 <p>Angular front-end client for the back-end movie API</p>
+		 <p>(HTML, CSS, JS, Angular, Angular Material)</p>
+		 <a href="https://gbstrom.github.io/myFlix-Angular-client" target="_blank">
+			<img src="img/myFlix-Angular-screenshot.JPG" class="grid__image">
+		  </a>
+         <a href="https://github.com/gbstrom/myFlix-Angular-client/" target="_blank">Check it out on Github</a>
 		 <br>
-		 <a href="https://gbstrom.github.io/meet/" target="_blank">Check out the live site on gh-pages</a>
+		 <a href="https://gbstrom.github.io/myFlix-Angular-client/" target="_blank">Check out the live site on gh-pages</a>
        </div>
        <div class="grid__item">
-         <h1>Project 2</h1>
-         <p>In this project, I will be responsible for building an impressive website using html, CSS & Javascript.</p>
-         <a href="#">Check it out on Github</a>
-       </div>
-       <div class="grid__item">
-         <h1>Project 3</h1>
-         <p>In this project, I will be responsible for building an impressive website using html, CSS & Javascript.</p>
-         <a href="#">Check it out on Github</a>
-       </div>
-       <div class="grid__item">
-         <h1>Project 4</h1>
-         <p>In this project, I will be responsible for building an impressive website using html, CSS & Javascript.</p>
-         <a href="#">Check it out on Github</a>
-       </div>
-       <div class="grid__item">
-         <h1>Project 5</h1>
-         <p>In this project, I will be responsible for building an impressive website using html, CSS & Javascript.</p>
-         <a href="#">Check it out on Github</a>
-       </div>
-       <div class="grid__item">
-         <h1>Project 6</h1>
-         <p>In this project, I will be responsible for building an impressive website using html, CSS & Javascript.</p>
-         <a href="#">Check it out on Github</a>
+		<h1>Meet App</h1>
+		<p>Serverless PWA hosted on Amazon Lambda that works with Google Calendar API. Login handled by Google OAuth2.</p>
+		<p>(HTML, CSS, JS, React)</p>
+		<a href="https://gbstrom.github.io/meet/" target="_blank">
+		  <img src="img/Meet-screenshot.JPG" class="grid__image">
+		</a>
+		<a href="https://github.com/gbstrom/meet" target="_blank">Check it out on Github</a>
+		<br>
+		<a href="https://gbstrom.github.io/meet/" target="_blank">Check out the live site on gh-pages</a>
+	  </div>
+	  <div class="grid__item">
+		<h1>ChitChat Mobile App</h1>
+		<p>React Native app built using Gifted Chat library.</p>
+		<p>(JS, React Native)</p>
+		<a href="https://github.com/gbstrom/hello-world" target="_blank">
+			<img src="img/ChitChat-preview.png" class="grid__image">
+		  </a>
+		<a href="https://github.com/gbstrom/hello-world">Check it out on Github</a>
+	  </div>
+	  <div class="grid__item">
+         <h1>Pokedex Web App</h1>
+         <p>Simple project built for practice using JS to connect to external API.</p>
+		 <p>(HTML, CSS, JS, Bootstrap)</p>
+		 <a href="https://gbstrom.github.io/js-exploration/" target="_blank">
+			<img src="img/pokedex-screenshot.JPG" class="grid__image">
+		  </a>
+		  <a href="https://github.com/gbstrom/js-exploration" target="_blank">Check it out on Github</a>
+		  <br>
+         <a href="https://gbstrom.github.io/js-exploration/">Check out the live site on gh-pages</a>
        </div>
      </div>
   </section>
