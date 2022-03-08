@@ -179,6 +179,10 @@ button:hover, button:focus, .button:hover, .button:focus {
   min-width: 250px;
 }
 
+.social-media > a {
+  text-decoration: none;
+}
+
 @supports (display: grid) {
  .grid {
    display: grid;
