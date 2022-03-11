@@ -137,6 +137,10 @@ button:hover, button:focus, .button:hover, .button:focus {
   text-align: center;
 }
 
+.bold-span {
+  font-weight: var(--heavy-font);
+}
+
 .profile {
   max-width: 700px;
   margin: 0 auto;
